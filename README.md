@@ -123,3 +123,56 @@ aws ecs update-service \
 eb init
 eb create my-env
 eb deploy
+
+# AWS
+ssh-i...........com
+sudo apt update 
+sudo apt-get install docker.io
+sudo apt install nano
+
+#Add pairkeyfile in AWS folder
+#create index.html and write code
+#push it in GitHub
+
+git clone https://............AWS.git
+ls
+cd AWS
+ls
+
+
+#(past)->FROM nginx:alpine
+COPY . /usr/share/nginx/html
+
+sudo docker build -t mywebapp
+sudo docker run -d -p 80:80 mywebapp
+
+# go to instances-> copy public ipv4 address->run it in browser
+
+sudo docker ps 
+sudo docker stop (container_id)
+
+#terminate 
+
+#Maven
+ssh-i...........com
+sudo apt update 
+sudo apt-get install docker.io
+sudo apt install git
+sudo apt install nano
+
+#push it in GitHub
+
+git clone https://............AWS.git
+ls
+cd MavenWebProject
+ls
+nano Dockerfile
+sudo docker build -t mavenwebproject .
+sudo docker run -d -p 9090:8080 mavenwebproject .
+
+# go to instances-> security->inbound rules->add custom TCP and port range:9090-> copy public ipv4 address ->past in browser.
+
+sudo docker ps
+sudo docker stop (container_id)
+
+#terminate
